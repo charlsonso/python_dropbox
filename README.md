@@ -42,6 +42,8 @@ This will run tests integrated into the build package similar to Maven in Java.
 3. Print a quick command line report with
 ```coverage report -m```
 
+Current Code Coverage = 65%
+
 ### Static Code Analysis
 1. Double check pylint is installed
 ```pip install pylint```
