@@ -3,6 +3,11 @@
 
 Currently in alpha. Tested on OSX 10.11.16 on Python 3.7.0
 
+### Features
+1. Uploads new files to your Google Drive
+2. Update modified files to and from your Google Drive
+3. Deletes files in local if deleted from Google Drive
+
 ### Installation
 1. Clone repository  
 ``` git clone git@github.com:so0p/python_dropbox.git ```
