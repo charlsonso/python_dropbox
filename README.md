@@ -7,17 +7,16 @@ Currently in alpha. Tested on OSX 10.11.16 on Python 3.7.0
 1. Clone repository  
 ``` git clone git@github.com:so0p/python_dropbox.git ```
 
-2. Navigate into the repo and install application  
-``` python setup.py install ```
+2. Install pip dependencies with the command  
+```pip3 install -r requirements.txt```
+
+3. Navigate into the repo and install application  
+``` python3 setup.py develop ```
 
 ### How To
 1. Navigate to ```https://developers.google.com/drive/api/v3/quickstart/python``` and follow step one. Download credentials.json by clicking <b> Download Client Configuration </b>
 
 2. Place credentials.json into credentials folder in repo root
-
-2. Install pip dependencies with the command  
-```pip install -r requirements.txt```
-
 3. For the first time use, use the command line option --credential in order to download pickle file.  
 ``` ibox UPLOAD_DIR --credential path/to/credentials.json```
 
